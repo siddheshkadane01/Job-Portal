@@ -5,3 +5,5 @@ const ApplyJob = () => {
     <div>ApplyJob</div>
   )
 }
+
+export default ApplyJob
