@@ -28,7 +28,7 @@ const Navbar = () => {
                   <div className='w-px h-6 bg-gray-300'></div>
                   <div className='flex items-center gap-3'>
                     <p className='text-gray-600 text-sm'>
-                      Hello, <span className='font-semibold text-gray-800'>{user.firstName+' '+user.lastName}</span>
+                      Hello, <span className='font-semibold text-gray-800 max-sm:hidden'>{user.firstName+' '+user.lastName}</span>
                     </p>
                     <div className='relative'>
                       <UserButton 
