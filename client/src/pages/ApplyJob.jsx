@@ -73,7 +73,7 @@ const ApplyJob = () => {
             {/* Key Responsibilities */}
             {jobData.responsibility && (
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-6">Key Responsibilities</h2>
+                <h2 className="text-2xl font-bold mb-4 capitalize">Key Responsibilities</h2>
                 <ul className="list-decimal ml-6 text-gray-700 space-y-2">
                   {jobData.responsibility.map((item, idx) => (
                     <li key={idx}>{item}</li>
