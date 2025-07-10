@@ -24,6 +24,8 @@ app.get("/debug-sentry", function mainHandler(req, res){
 });
 
 app.post('/webhook', clerkWebhook);
+app.get('/favicon.ico', (req, res) => res.status(204).end());
+app.get('/favicon.png', (req, res) => res.status(204).end());
 
 // Port
 const PORT = process.env.PORT || 9000
